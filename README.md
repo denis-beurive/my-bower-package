@@ -1,8 +1,6 @@
 # my-bower-package
 
-This repository contains a Bower package that I created in order to learn how to create public and private packages with Bower.
-
-## Public packages
+This repository contains a Bower package that I created in order to learn how to create public packages with Bower.
 
 The creation of a public package is pretty straightforward. Assuming that you have a bunch of files – grouped under a directory – that you want to package :
 
@@ -33,5 +31,7 @@ Get the origin of the repository: `git config --get remote.origin.url`
 Register the package on Heroku: `bower register my-bower-package git://github.com/denis-beurive/my-bower-package.git`
 
 Install the package: `bower install my-bower-package`
+
+
 
 
