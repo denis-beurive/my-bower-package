@@ -6,7 +6,7 @@ This repository contains a Bower package that I created in order to learn how to
 
 The creation of a public package is pretty straightforward. Assuming that you have a bunch of files – grouped under a directory – that you want to package :
 
-* You create a JSON file called « bower.json » within the directory that contains all the files you want to package. This file represents the package’s specification. See: https://github.com/bower/spec/blob/master/json.md
+* You create a JSON file called « [bower.json](https://github.com/denis-beurive/my-bower-package/blob/master/bower.json) » within the directory that contains all the files you want to package. This file represents the package’s [specification](https://github.com/bower/spec/blob/master/json.md).
 * You create a repository on GitHub that will contain the source of your package.
 * You push all the packages’ files to the GitHub repository.
 * Create a Git tag that will be used to reference all the files within a given version of the package. Make sure that this tag and the value of the property « version », within the package’s specification file « bower.json », are identical.
