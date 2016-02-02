@@ -5,13 +5,13 @@ push:
 	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) push -u origin master 
 
 create-tag:
-	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) tag -a $(tag) 
+	git tag -a $(tag) -m $(message)
 
 push-tag:
 	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) push -u origin master $(tag)
 
 delete-local-tag:
-	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) tag -d $(tag)
+	git tag -d $(tag)
 
 delete-remote-tag:
 	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) push origin --delete $(tag)
