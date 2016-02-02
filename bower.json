@@ -1,5 +1,6 @@
 {
   "name": "my-bower-package",
+  "version": "1.0.0",
   "description": "This package is just a test.",
   "main": [
     "js/main.js",
