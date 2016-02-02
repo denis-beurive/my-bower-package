@@ -7,6 +7,9 @@ push:
 create-tag:
 	git tag -a $(tag) -m $(message)
 
+list-remote-tags:
+	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) ls-remote --tags
+
 push-tag:
 	$(MAKEFILE_DIR)/git.sh -i $(GIT_RSA) push -u origin master $(tag)
 
