@@ -2,8 +2,17 @@
 
 This GitHub repository contains a Bower package that I created in order to learn how to create public packages with Bower.
 
-The repository's content has also been registered on SourceForge in order to illustrate the use of SVN to keep packages’ contents.
-See [https://sourceforge.net/projects/my-bower-package/](https://sourceforge.net/projects/my-bower-package/).
+**IMPORTANT NOTE**:
+
+> Please note that the repository's content has also been registered on SourceForge in order to illustrate the use of SVN to keep packages’ contents.
+> See [https://sourceforge.net/projects/my-bower-package/](https://sourceforge.net/projects/my-bower-package/).
+>
+> However, it turns out that, for the time being, it is not possible to register an SVN package on Heroku.
+> I don’t know why it should not be possible. I found, however, links to this question :
+> 
+> * [https://github.com/bower/registry](https://github.com/bower/registry): look for the word "skipValidation".
+> * [https://github.com/bower/registry/issues/23](https://github.com/bower/registry/issues/23): look for "validUrl".
+
 
 The creation of a public package is pretty straightforward. Assuming that you have a bunch of files – grouped under a directory – that you want to package.
 
