@@ -44,8 +44,8 @@ Install the package: `bower install my-bower-package`
 * You create a JSON file called « [bower.json](http://sourceforge.net/p/my-bower-package/code/HEAD/tree/trunk/bower.json) » within the directory that contains all the files you want to package.
   This file represents the package’s [specification](https://github.com/bower/spec/blob/master/json.md).
 * You create a repository on SourceForge that will contain the source of your package.
-* You push all the packages’ files to the SourceForge repository.
-  You create a branch, under the directory "`tags`" (do not use any other directory name).
+* You commit all the packages’ files to the SourceForge repository.
+* You create a branch, under the directory "`tags`" (do not use any other directory name).
   Make sure that this tag and the value of the property « `version` », within the package’s specification file « `bower.json` », are identical.
 * Then you can register the package on Heroku.
 
